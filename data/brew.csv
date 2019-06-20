@@ -1,4 +1,5 @@
 bat,,
+fzf,,
 iterm2,cask,
 virtualbox,cask,
 coreutils,,
