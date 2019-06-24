@@ -23,6 +23,7 @@ plugins=(
     'coc.nvim'
     'ctrlp-py-matcher'
     'ctrlp.vim'
+    'fzf.vim'
     'ranger.vim'
     'vim-airline'
     'vim-airline-themes'
