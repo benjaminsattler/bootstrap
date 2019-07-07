@@ -1,6 +1,8 @@
 $HOME/src/dotfiles/vim/vimrc,$HOME/.vimrc,,,,
 $HOME/src/dotfiles/tty/aliases,$HOME/.aliases,,,,
 $HOME/src/dotfiles/zsh/zshrc,$HOME/.zshrc,,,,
+$HOME/src/dotfiles/git/gitconfig,$HOME/.gitconfig,,,,
+$HOME/src/dotfiles/git/gitignore_global,$HOME/.gitignore_global,,,,
 $HOME/src/coc.nvim,$HOME/.vim/bundle/coc.nvim,,,,
 $HOME/src/ctrlp-py-matcher,$HOME/.vim/bundle/ctrlp-py-matcher,,,,
 $HOME/src/ctrlp.vim,$HOME/.vim/bundle/ctrlp.vim,,,,
