@@ -1,3 +1,5 @@
+automake,,
+autoconf,,
 bat,,
 fzf,,
 iterm2,cask,
