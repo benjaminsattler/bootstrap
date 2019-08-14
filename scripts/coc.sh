@@ -5,7 +5,6 @@ set +evx
 wd=~/.config/coc/extensions
 
 plugins=(
-    coc-phpls           # php
     coc-tsserver        # javscript/typescript
     coc-solargraph      # ruby
 )
