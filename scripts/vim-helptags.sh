@@ -34,6 +34,7 @@ plugins=(
     'vim-rspec'
     'vim-solarized8'
     'tagbar'
+    'syntastic'
 )
 
 for plugin in ${plugins[@]}
