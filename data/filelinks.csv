@@ -26,3 +26,5 @@ $HOME/src/dotfiles/ranger/rc.conf,$HOME/.config/ranger/rc.conf,,,,
 $HOME/src/dotfiles/mycli/myclirc,$HOME/.myclirc,,,,
 $HOME/src/dotfiles/scim/scimrc,$HOME/.scimrc,,,,
 $HOME/src/dotfiles/neovim/init.vim,$HOME/.config/nvim/init.vim,,,,
+$HOME/src/dotfiles/ranger/rifle.conf,$HOME/.config/ranger/rifle.conf,,,,
+/usr/local/bin/nvim,/usr/local/bin/vim
