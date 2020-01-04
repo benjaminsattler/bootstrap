@@ -28,4 +28,6 @@ $HOME/src/dotfiles/mycli/myclirc,$HOME/.myclirc,,,,
 $HOME/src/dotfiles/scim/scimrc,$HOME/.scimrc,,,,
 $HOME/src/dotfiles/neovim/init.vim,$HOME/.config/nvim/init.vim,,,,
 $HOME/src/dotfiles/ranger/rifle.conf,$HOME/.config/ranger/rifle.conf,,,,
-/usr/local/bin/nvim,/usr/local/bin/vim
+/usr/local/bin/nvim,/usr/local/bin/vim,,,,
+$HOME/src/dotfiles/iterm2/profile.plist,$HOME/Library/ApplicationSupport/iTerm2/DynamicProfiles/profile.plist,,,,
+$HOME/src/dotfiles/bat/bat.conf,$HOME/.config/bat/bat.conf
