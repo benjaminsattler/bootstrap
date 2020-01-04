@@ -15,7 +15,7 @@ plugins=(
 
 yarn --cwd=${wd} install
 
-for plugin in ${plugins[@]}
+for plugin in "${plugins[@]}"
 do
     vim -c "CocInstall -sync ${plugin}|q"
 done

@@ -1,8 +1,5 @@
-sudo: false
 dist: trusty
+os: linux
+language: minimal
 
-addons:
-  apt:
-    packages: shellcheck
-
-script: shellcheck *.sh scripts/*.sh
+script: docker run --rm -v "$PWD:/mnt" koalaman/shellcheck:stable *.sh scripts/*.sh

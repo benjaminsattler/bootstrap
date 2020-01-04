@@ -9,8 +9,8 @@ if [[ "$?" == "1" && -e "/usr/local/bin/zsh" ]]; then
         exit
     fi
     echo "Installing zsh as shell. Please enter root password for this:"
-    sudo echo "/usr/local/bin/zsh" >> /etc/shells
+    echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
     echo "Shell installed. Now please run this script again as your non-root user that you want to change the shell for."
     exit
 fi
-chsh -u `whoami` -s /usr/local/bin/zsh
+chsh -u "$(whoami)" -s /usr/local/bin/zsh

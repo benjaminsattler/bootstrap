@@ -2,8 +2,8 @@
 
 set +evx
 
-pushd ~/src/php-language-server
+pushd ~/src/php-language-server > /dev/null || exit
 
 composer install
 
-popd
+popd > /dev/null || exit
