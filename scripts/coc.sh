@@ -2,7 +2,7 @@
 
 set +evx
 
-wd=~/.vim/bundle/coc.nvim/
+wd=~/.vim/plugged/coc.nvim/
 
 plugins=(
     coc-tsserver        # javscript/typescript
