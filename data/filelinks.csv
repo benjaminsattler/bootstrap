@@ -31,3 +31,4 @@ $HOME/src/dotfiles/ranger/rifle.conf,$HOME/.config/ranger/rifle.conf,,,,
 /usr/local/bin/nvim,/usr/local/bin/vim,,,,
 $HOME/src/dotfiles/iterm2/profile.plist,$HOME/Library/ApplicationSupport/iTerm2/DynamicProfiles/profile.plist,,,,
 $HOME/src/dotfiles/bat/bat.conf,$HOME/.config/bat/bat.conf
+$HOME/src/vim-plug/plug.vim,$HOME/.vim/autoload/plug.vim
