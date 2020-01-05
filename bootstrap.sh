@@ -7,5 +7,4 @@ curl -fsSL https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/re
 curl -fsSL https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/filelinks.sh | /bin/sh
 
 curl -fsSL https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/scripts/changeshell.sh | /bin/sh
-curl -fsSL https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/scripts/coc.sh | /bin/sh
 curl -fsSL https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/scripts/php-language-server.sh | /bin/sh
