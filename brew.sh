@@ -2,7 +2,8 @@
 
 set +evx
 
-brew=brew
+brew="brew"
+curl="curl"
 
 function usage() {
     echo Usage: "${0}" [-h] [-i \<CSV file\>]
@@ -23,5 +24,5 @@ esac done
 
 [[ -z "${packagesfile}" ]] && packagesfile=https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/Brewfile
 
-curl -fsSL "${packagesfile}" | ${brew} bundle --file=-
+${curl} -fsSL "${packagesfile}" | ${brew} bundle --file=-
 
