@@ -1,5 +1,6 @@
 $HOME/src/dotfiles/vim/vimrc,$HOME/.vimrc
 $HOME/src/dotfiles/vim/coc-settings.json,$HOME/.vim/coc-settings.json
+$HOME/src/dotfiles/vim/coc-settings.json,$HOME/.config/nvim/coc-settings.json
 $HOME/src/dotfiles/tty/aliases,$HOME/.aliases
 $HOME/src/dotfiles/zsh/zshrc,$HOME/.zshrc
 $HOME/src/dotfiles/git/gitconfig,$HOME/.gitconfig
