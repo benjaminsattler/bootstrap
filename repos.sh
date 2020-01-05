@@ -2,7 +2,7 @@
 
 set +evx
 
-git=git
+git="git"
 
 function usage() {
     echo Usage: "$0" [-h] [-r \<CSV file\>]
@@ -13,16 +13,16 @@ function usage() {
 }
 
 while getopts "r:h" o; do case "${o}" in
-    r) reposfile=${OPTARG} ;;
+    r) reposfile="${OPTARG}" ;;
     h) usage; exit 0; ;;
     ?) usage; exit 0; ;;
 esac done
 
 [[ -z "${reposfile}" ]] && reposfile=https://raw.githubusercontent.com/benjaminsattler/bootstrap/master/data/repos.csv
 
-echo Using repositories from ${reposfile}
+echo Using repositories from "${reposfile}"
 
-if ! type ${git} > /dev/null 2>&1; then
+if ! type "${git}" > /dev/null 2>&1; then
     echo Git must be available
     exit 1
 fi
@@ -42,7 +42,7 @@ do
         ${git} -C "${repotargetdir}" pull >&3 2>&1
         gitstatus=$?
     else
-        echo Cloning "${target}" into ${repotargetdir}
+        echo Cloning "${target}" into "${repotargetdir}"
         ${git} clone "${repourl}" "${repotargetdir}" >&3 2>&1
         gitstatus=$?
     fi
