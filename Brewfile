@@ -10,6 +10,7 @@ tap 'homebrew/cask'
 tap 'homebrew/core'
 tap 'homebrew/services'
 
+cask "alacritty"
 brew "automake"
 brew "autoconf"
 brew "bat"
