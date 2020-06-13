@@ -19,3 +19,6 @@ $HOME/src/dotfiles/iterm2/profile.plist,$HOME/Library/ApplicationSupport/iTerm2/
 $HOME/src/dotfiles/bat/bat.dark.conf,$HOME/.config/bat/bat.dark.conf
 $HOME/src/dotfiles/bat/bat.light.conf,$HOME/.config/bat/bat.light.conf
 $HOME/src/dotfiles/alacritty/alacritty.yml,$HOME/.alacritty.yml
+$HOME/src/dotfiles/kitty/Dark.conf,$HOME/.config/kitty/Dark.conf
+$HOME/src/dotfiles/kitty/Light.conf,$HOME/.config/kitty/Light.conf
+$HOME/src/dotfiles/kitty/kitty.conf,$HOME/.config/kitty/kitty.conf
