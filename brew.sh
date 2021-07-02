@@ -13,8 +13,8 @@ function usage() {
     echo
 }
 
-type ${brew} > /dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+type ${brew} > /dev/null 2>&1 || sudo true && NONINTERACTIVE=1 /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ 
 while getopts "i:h" o; do case "${o}" in
     i) packagesfile=${OPTARG} ;;
     h) usage; exit 0; ;;
