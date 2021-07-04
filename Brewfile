@@ -4,6 +4,14 @@ brew "spotify-tui"
 tap 'wagoodman/dive'
 brew "dive"
 
+tap 'wilmoore/formulae'
+brew "php-version"
+
+tap 'epk/epk'
+cask "font-sf-mono-nerd-font"
+
+
+
 tap 'heroku/brew'
 brew "heroku"
 tap 'homebrew/cask'
@@ -30,7 +38,6 @@ brew "hugo"
 brew "jq"
 cask "kitty"
 brew "kubernetes-cli"
-cask "minikube"
 brew "mycli"
 brew "neovim"
 brew "n"
